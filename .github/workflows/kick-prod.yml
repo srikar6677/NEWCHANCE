@@ -1,0 +1,10 @@
+name: call flow kick
+
+on:
+  push:
+     branches:
+         -main
+
+  jobs:
+     call-workflow:
+     user:srikar6677/NEWCHANCE/.github/workflows/kick-prod.yml@main
