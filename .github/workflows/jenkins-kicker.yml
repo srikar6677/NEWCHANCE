@@ -1,0 +1,9 @@
+name: 'kick off Jenkins job'
+on:
+push:
+branches:
+     - main
+jobs:
+  kick-jenkins:
+  user: srikar6677/NEWCHANCE/.github/workflows/jenkins-kicker.yml@main
+  with:
